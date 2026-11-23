@@ -1,0 +1,18 @@
+# 管理するのは Assets/Scripts、Docs、README.md だけ
+*
+
+!*/
+
+!/.gitignore
+!/README.md
+
+!/Assets/Scripts/
+!/Assets/Scripts/**
+
+# 解析用のローカルスクリプト
+/Assets/Scripts/tools/**
+
+!/Docs/
+!/Docs/**
+
+*.meta
